@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(31, 118, 118);
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(207, 185, 155);
+    color: rgb(196, 9, 9);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#header {
+    margin-top: 90px;
+
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 5px;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+#reset {
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#msg {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
